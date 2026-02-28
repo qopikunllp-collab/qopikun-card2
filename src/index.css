@@ -70,6 +70,20 @@
     height: auto;
   }
 
+  /* responsive tweaks */
+  @media (max-width: 640px) {
+    .company-name-img {
+      max-width: 90%;    /* fit within small screens */
+    }
+    .company-logo {
+      width: 120px;
+    }
+    .cert-badge {
+      padding: 5px 8px;
+      font-size: 0.85rem;
+    }
+  }
+
   .company-logo:hover {
     transform: scale(1.1);
   }
@@ -91,18 +105,19 @@
   }
 
   /* Certification badge to improve contrast and visibility */
-    .cert-badge {
-      color: #ffffff; /* white text for max contrast */
-      background: linear-gradient(90deg, #1f7a43 0%, #27ae60 100%);
-      padding: 8px 14px;
-      border-radius: 9999px;
-      box-shadow: 0 8px 30px rgba(39, 174, 96, 0.25);
-      display: inline-block;
-      line-height: 1;
-      font-weight: 700;
-      border: 1px solid rgba(255,255,255,0.08);
-      text-shadow: 0 1px 0 rgba(0,0,0,0.12);
-    }
+  .cert-badge {
+    color: #ffffff; /* white text for max contrast */
+    background: linear-gradient(90deg, #1f7a43 0%, #27ae60 100%);
+    padding: 8px 14px;
+    border-radius: 9999px;
+    box-shadow: 0 8px 30px rgba(39, 174, 96, 0.25);
+    display: inline-block;
+    line-height: 1;
+    font-weight: 700;
+    border: 1px solid rgba(255,255,255,0.08);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.12);
+    white-space: nowrap;
+  }
 
   .contact-btn-shadow {
     box-shadow: 0 8px 25px rgba(39, 174, 96, 0.4);
