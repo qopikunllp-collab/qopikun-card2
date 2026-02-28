@@ -171,7 +171,7 @@ export default function App() {
         <div className="text-lg md:text-2xl font-semibold text-blue-50/90 mb-0 max-w-2xl">
           Trusted Partners in Aerospace Quality, Inspection & Training
         </div>
-        <div className="text-sm md:text-base font-bold text-[#27ae60] uppercase tracking-[0.2em]">
+        <div className="text-sm md:text-base font-bold cert-badge uppercase tracking-[0.2em]">
           AS9100D & BS EN ISO 9001:2015 Certified Company
         </div>
       </motion.div>

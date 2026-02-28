@@ -90,6 +90,18 @@
     transform: translateY(-2px);
   }
 
+  /* Certification badge to improve contrast and visibility */
+  .cert-badge {
+    color: #145c37; /* darker green for contrast */
+    background: rgba(20,92,55,0.06);
+    padding: 6px 10px;
+    border-radius: 9999px;
+    box-shadow: 0 2px 8px rgba(20,92,55,0.06);
+    display: inline-block;
+    line-height: 1; /* tighter vertical spacing */
+    text-shadow: 0 1px 1px rgba(0,0,0,0.06);
+  }
+
   .contact-btn-shadow {
     box-shadow: 0 8px 25px rgba(39, 174, 96, 0.4);
   }
