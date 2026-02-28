@@ -168,7 +168,7 @@ export default function App() {
           />
         </div>
         
-        <div className="text-lg md:text-2xl font-semibold text-blue-50/90 mb-0 max-w-2xl">
+        <div className="text-lg md:text-2xl font-semibold mb-0 max-w-2xl text-gray-800 md:text-blue-50/90">
           Trusted Partners in Aerospace Quality, Inspection & Training
         </div>
         <div className="text-sm md:text-base font-bold cert-badge uppercase tracking-[0.2em]">
@@ -209,7 +209,7 @@ export default function App() {
             href="https://www.qopikun.com" 
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#27ae60] text-white px-14 py-5 rounded-full font-black text-xl shadow-lg contact-btn-shadow transition-all"
+            className="bg-[#27ae60] text-white px-10 md:px-14 py-4 md:py-5 rounded-full font-black text-xl shadow-lg contact-btn-shadow transition-all"
           >
             Contact Us
           </motion.a>
