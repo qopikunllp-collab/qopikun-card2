@@ -20,10 +20,9 @@
     background: linear-gradient(135deg, #f5f7fa 0%, #27446b 40%, #3a82c0 60%, #5cbf7d 100%);
     color: #333;
     min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* allow natural flow and scrolling on narrow screens */
     padding: 1rem;
+    overflow-x: auto; /* ensure horizontal overflow is scrollable */
   }
 }
 

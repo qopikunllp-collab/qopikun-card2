@@ -150,7 +150,7 @@ const ContactStripItem = ({ icon, children }: { icon: string, children: React.Re
 
 export default function App() {
   return (
-    <div className="w-full max-w-[900px] py-12 px-4">
+    <div className="w-full max-w-[900px] mx-auto py-12 px-4">
       {/* Top Hero Section - On Gradient Background */}
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
