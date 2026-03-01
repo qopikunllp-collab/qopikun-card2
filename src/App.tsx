@@ -190,7 +190,7 @@ export default function App() {
           </Badge>
           <Badge>
             <span className="text-lg">👤</span>
-            <span>Founder & Managing Director: Arjun & Mrs. Nancy J</span>
+            <span>Founders & Partners: Mr. Arjun & Mrs. Nancy J</span>
           </Badge>
         </div>
 
