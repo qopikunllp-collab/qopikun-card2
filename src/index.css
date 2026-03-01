@@ -74,10 +74,10 @@
   /* responsive tweaks */
   @media (max-width: 640px) {
     .company-name-img {
-      max-width: 90%;    /* fit within small screens */
+      max-width: 60%;    /* smaller on mobile */
     }
     .company-logo {
-      width: 120px;
+      width: 100px;
     }
     .cert-badge {
       padding: 4px 6px;
