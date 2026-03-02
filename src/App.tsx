@@ -258,7 +258,9 @@ export default function App() {
           +91 9964517976 | +91 9900861042
         </ContactStripItem>
         <ContactStripItem icon="📧">
-          qopikunglobal@gmail.com
+          <a href="mailto:qopikun@gmail.com" className="hover:underline">
+            qopikun@gmail.com
+          </a>
         </ContactStripItem>
       </div>
 
